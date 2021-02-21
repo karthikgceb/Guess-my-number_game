@@ -4,7 +4,7 @@
 let score = 20;
 let highScore=0;
 //console.log(secertNumber);
-console.log(secertNumber);
+//console.log(secertNumber);
 
 
 
@@ -62,7 +62,7 @@ document.querySelector('.check').removeEventListener('click',function(){
 
 document.querySelector('.again').addEventListener('click',function(){
     score=20;
-    secertNumber = Math.trunc(Math.random()*20)+1;
+     let secertNumber = Math.trunc(Math.random()*20)+1;
     document.querySelector('.score').textContent=score;
     document.querySelector('body').style.backgroundColor="#222";
     document.querySelector('.number').style.width="15rem";
